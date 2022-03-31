@@ -1,0 +1,76 @@
+
+* {
+    text-align: center;
+    text-decoration: none;
+}
+
+body{
+    background-color: bisque;
+}
+.garf{
+    max-width: 20%;
+    height: auto;
+
+}
+
+h1{
+    font-family: 'Rock 3D', cursive;
+    font-size: 500%;
+    
+}
+
+p{
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+
+ol{
+    list-style: none;
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+    font-family: 'Pacifico', cursive; 
+}
+
+ul{
+    list-style: none;
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+
+a, a:hover, a:visited, a:active
+{
+	color:#000;
+	text-decoration:none;
+}
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(255, 210, 210);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    
+}
+
+.styled:hover {
+    background-color: rgb(255, 133, 133);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
